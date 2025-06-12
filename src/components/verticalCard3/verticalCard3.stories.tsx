@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
-import VerticalCard2 from "./verticalCard2";
+import VerticalCard3 from "./verticalCard3";
 
-const meta: Meta<typeof VerticalCard2> = {
-  title: "Components/VerticalCard2",
-  component: VerticalCard2,
+const meta: Meta<typeof VerticalCard3> = {
+  title: "Components/VerticalCard3",
+  component: VerticalCard3,
   tags: ["autodocs"],
   argTypes: {
     text: { control: "text" },
@@ -11,7 +11,7 @@ const meta: Meta<typeof VerticalCard2> = {
 };
 
 export default meta;
-type Story = StoryObj<typeof VerticalCard2>;
+type Story = StoryObj<typeof VerticalCard3>;
 
 export const Primary: Story = {
   args: {

@@ -42,7 +42,7 @@ const CardHorizontal = () => {
               </div>
 
               <svg xmlns="http://www.w3.org/2000/svg" width="2" height="21" viewBox="0 0 2 21" fill="none">
-                <line x1="1.04785" y1="0.5" x2="1.04785" y2="20.5" stroke="#718096" stroke-opacity="0.36"/>
+                <line x1="1.04785" y1="0.5" x2="1.04785" y2="20.5" stroke="#718096" strokeOpacity="0.36"/>
               </svg>
 
               <div className={style.icon_container}>

@@ -4,8 +4,6 @@ import Card from "@/public/images/card2.png";
 import Heart from "@/public/icons/BiHeart.png";
 import Share from "@/public/icons/BiShareAlt.png";
 import Agent from "@/public/icons/logo-agent m.png";
-import Bed from "@/public/images/BiBed.png";
-import Bath from "@/public/images/BiBath.png";
 
 const BigHorizontalCard = () => {
   return (
