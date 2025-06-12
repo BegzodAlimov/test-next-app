@@ -4,6 +4,7 @@ import Card from "@/public/images/card2.png";
 import Heart from "@/public/icons/BiHeart.png";
 import Share from "@/public/icons/BiShareAlt.png";
 import Agent from "@/public/icons/logo-agent m.png";
+import Link from "next/link";
 
 const BigHorizontalCard = () => {
   return (
@@ -108,8 +109,8 @@ const BigHorizontalCard = () => {
         </div>
 
         <div className={style.btn_container}>
-          <button className={style.btn1}>Связаться с продавцом</button>
-          <button className={style.btn2}>WhatsApp</button>
+          <Link href={"#"} className={style.btn1}>Связаться с продавцом</Link>
+          <Link href={"#"} className={style.btn2}>WhatsApp</Link>
         </div>
       </div>
     </div>

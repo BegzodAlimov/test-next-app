@@ -212,6 +212,7 @@
 
 .icon {
   position: relative;
+  cursor: pointer;
   width: 32.133px;
   height: 32.133px;
   flex-shrink: 0;
@@ -221,6 +222,7 @@
 .avatar {
 display: flex;
 position: relative;
+cursor: pointer;
 width: 44px;
 height: 44px;
 padding: 7.7px 13.92px 7.3px 14.08px;

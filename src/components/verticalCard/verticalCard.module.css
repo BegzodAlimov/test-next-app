@@ -265,6 +265,7 @@
 /* CARD ICON */
 .card_icon1 {
   position: absolute;
+  cursor: pointer;
   right: 16px;
   top: 16px;
   display: flex;
@@ -283,6 +284,7 @@
 
 .card_icon2 {
   position: absolute;
+  cursor: pointer;
   left: 16.452px;
   bottom: 15.5px;
   display: flex;
@@ -298,6 +300,7 @@
 
 .card_icon3 {
   display: flex;
+  cursor: pointer;
   width: 66px;
   height: 18px;
   padding: 10px;

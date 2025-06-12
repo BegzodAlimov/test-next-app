@@ -121,6 +121,7 @@ letter-spacing: 0px;
 }
 
 .card_icon {
+  cursor: pointer;
   width: 21px;
   height: 21px;
   position: relative;
@@ -129,6 +130,7 @@ letter-spacing: 0px;
 }
 
 .card_avatar {
+  cursor: pointer;
   width: 30px;
   height: 30px;
   position: relative;
