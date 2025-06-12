@@ -9,17 +9,17 @@ const VerticalCard = () => {
   return (
     <div className={style.main_container}>
       <div className={style.image}>
-        <div className={style.card_icon1}>
+        <Link href={"#"} className={style.card_icon1}>
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
             <path d="M12.4521 5.09511C11.3625 4.09321 9.93634 3.53716 8.45613 3.53711C7.67267 3.53793 6.8971 3.69367 6.17407 3.99538C5.45103 4.29709 4.79479 4.7388 4.24313 5.29511C1.89013 7.65811 1.89113 11.3541 4.24513 13.7071L11.5771 21.0391C11.7471 21.3381 12.0751 21.5311 12.4521 21.5311C12.6069 21.5296 12.7592 21.4918 12.8968 21.4208C13.0343 21.3498 13.1533 21.2475 13.2441 21.1221L20.6591 13.7071C23.0131 11.3531 23.0131 7.65811 20.6571 5.29111C20.1057 4.73583 19.45 4.29501 18.7277 3.99399C18.0054 3.69298 17.2307 3.53771 16.4481 3.53711C14.968 3.53735 13.5418 4.09338 12.4521 5.09511ZM19.2431 6.70511C20.8061 8.27611 20.8071 10.7301 19.2451 12.2931L12.4521 19.0861L5.65913 12.2931C4.09713 10.7301 4.09813 8.27611 5.65713 6.70911C6.41713 5.95311 7.41113 5.53711 8.45613 5.53711C9.50113 5.53711 10.4911 5.95311 11.2451 6.70711L11.7451 7.20711C11.8379 7.30006 11.9481 7.37379 12.0694 7.4241C12.1908 7.47441 12.3208 7.50031 12.4521 7.50031C12.5835 7.50031 12.7135 7.47441 12.8348 7.4241C12.9561 7.37379 13.0663 7.30006 13.1591 7.20711L13.6591 6.70711C15.1711 5.19811 17.7331 5.20211 19.2431 6.70511Z" fill="#2D3748"/>
           </svg>
-        </div>
-        <div className={style.card_icon2}>
+        </Link>
+        <Link href={"#"} className={style.card_icon2}>
             <Image alt="image" src={User} fill style={{objectFit: "cover"}}/>
-        </div>
-        <div className={style.card_icon3}>
+        </Link>
+        <Link href={"#"} className={style.card_icon3}>
             <Image alt="image" src={Gallery} fill style={{objectFit: "cover"}}/>
-        </div>
+        </Link>
         <Image alt="image" src={Card} fill style={{objectFit: "cover"}}/>
       </div>
       <div className={style.body_container}>

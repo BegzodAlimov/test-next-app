@@ -89,21 +89,21 @@ const BigHorizontalCard = () => {
           </div>
 
           <div className={style.icon_container}>
-            <div className={style.icon_inline_container}>
+            <Link href={"#"} className={style.icon_inline_container}>
               <div className={style.icon}>
                 <Image alt='image' src={Heart} fill style={{objectFit: "cover"}}/>
               </div>
-            </div>
-            <div className={style.icon_inline_container}>
+            </Link>
+            <Link href={"#"} className={style.icon_inline_container}>
               <div className={style.icon}>
                 <Image alt='image' src={Share} fill style={{objectFit: "cover"}}/>
               </div>
-            </div>
+            </Link>
 
             <div>
-              <div className={style.avatar}>
+              <Link href={"#"} className={style.avatar}>
                 <Image alt='image' src={Agent} fill style={{objectFit: "contain"}}/>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

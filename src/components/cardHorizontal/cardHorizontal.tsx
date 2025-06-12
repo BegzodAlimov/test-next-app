@@ -8,6 +8,7 @@ import Heart from "@/public/icons/BiHeart.png";
 import Share from "@/public/icons/BiShareAlt.png";
 import Agent from "@/public/icons/logo-agent card.png";
 import BorderOuter from "@/public/images/BiBorderOuter.png";
+import Link from 'next/link';
 
 const CardHorizontal = () => {
   return (
@@ -57,23 +58,23 @@ const CardHorizontal = () => {
         </div>
         
         <div className={style.card_icon_container}>
-          <div className={style.card_icon_inline_container}>
+          <Link href={"#"} className={style.card_icon_inline_container}>
             <div className={style.card_icon}>
               <Image alt='image' src={Heart} fill style={{objectFit: "cover"}}/>
             </div>
-          </div>
+          </Link>
 
-          <div className={style.card_icon_inline_container}>
+          <Link href={"#"} className={style.card_icon_inline_container}>
             <div className={style.card_icon}>
               <Image alt='image' src={Share} fill style={{objectFit: "cover"}}/>
             </div>
-          </div>
+          </Link>
           
-          <div className={style.card_icon_inline_container}>
+          <Link href={"#"} className={style.card_icon_inline_container}>
             <div className={style.card_avatar}>
               <Image alt='image' src={Agent} fill style={{objectFit: "contain"}}/>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </div>
